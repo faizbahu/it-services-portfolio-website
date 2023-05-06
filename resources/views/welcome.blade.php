@@ -39,6 +39,23 @@
 
         }
 
+        .checkbox-round {
+            width: 28px;
+            height: 28px;
+            background-color: #313131;
+            border-radius: 50%;
+            vertical-align: middle;
+            border: 7px solid #313131;
+            appearance: none;
+            -webkit-appearance: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .checkbox-round:checked {
+            background-color: #4BBEFF;
+        }
+
         @media (min-width: 1024px) {
             .extra-width {
                 width: -webkit-fill-available;
@@ -56,6 +73,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="flex flex-col min-h-screen relative">
         <img class="extra-width height object-cover lg:!h-auto absolute -z-10" src="images/hero-section.png" />
@@ -354,8 +372,87 @@
             <div
                 class="text-center text-white font-bold text-base lg:-mb-[81px] z-10 absolute lg:relative bottom-0 left-0 right-0 m-auto lg:translate-y-[41px] -translate-y-[159%]">
             </div>
-            <div class="!pb-[90px] lg:!pb-[244px] linear-gradient-2 lg:absolute -bottom-[36%] 2xl:-bottom-[45%] extra-width"></div>
+            <div
+                class="!pb-[90px] lg:!pb-[244px] linear-gradient-2 lg:absolute -bottom-[36%] 2xl:-bottom-[45%] extra-width">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div
+            class="lg:ml-auto flex container mx-auto justify-between mt-[74px] lg:mt-80 mb-20 lg:mb-40 flex-col-reverse lg:flex-row ">
+
+            <div class="flex-1 mt-20 lg:mt-0 lg:mx-0 mx-5 lg:ml-28 2xl:ml-3">
+                <div class="relative">
+                    <img class="relative w-48 lg:w-auto" src="/images/iphone.png" alt="">
+                    <div class="absolute top-0 w-full ml-10 text-center">
+                        <h3 class="text-xl text-[#4BBEFF] mt-20 font-bold">Please Fill Out This Form.</h3>
+                        <div class="bg-[#E6E6E6] w-[221px] h-[2px] my-7 mx-auto"></div>
+                        <form action="">
+                            <input
+                                class="py-3 pl-5 pr-36 rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
+                                type="text" placeholder="Full Name?"></br>
+                            <input
+                                class="mt-2 py-3 pl-5 pr-36 rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
+                                type="text" placeholder="Email?"></br>
+                            <div class="relative">
+                                <input
+                                    class="mt-2 py-3 pl-5 pr-36 rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
+                                    type="text" placeholder="Phone?">
+                                <div style="clip-path: polygon(48% 0, 0% 100%, 100% 100%);"
+                                    class="w-[15px] h-[15px] bg-[#4BBEFF] rotate-[-150deg] absolute -bottom-[5px] left-[103px]">
+                                </div>
+                            </div>
+                            <div class="relative">
+                                <h5
+                                    class="px-5 w-fit mt-2 py-3 rounded-full bg-[#313131] text-white text-sm font-bold mx-auto mr-[100px]">
+                                    What Service Do You Need?</h5>
+                                <div style="clip-path: polygon(48% 0, 0% 100%, 100% 100%);"
+                                    class="w-[15px] h-[15px] bg-[#313131] absolute -bottom-[4px] right-[100px] rotate-[140deg]">
+                                </div>
+                            </div>
+                            <div class="ml-[100px] text-left mt-5">
+                                <div class="">
+                                    <input type="checkbox" class="checkbox-round" />
+                                    <label for="" class="ml-2 text-lg font-bold">WEB DEVELOPMENT</label><br />
+                                </div>
+                                <div class="mt-3">
+                                    <input type="checkbox" class="checkbox-round" />
+                                    <label for="" class="ml-2 text-lg font-bold">MOBILE DEVELOPMENT</label><br />
+                                </div>
+                                <div class="mt-3">
+                                    <input type="checkbox" class="checkbox-round" />
+                                    <label for="" class="ml-2 text-lg font-bold">SOFTWARE DEVELOPMENT</label><br />
+                                </div>
+                                <div class="mt-3">
+                                    <input type="checkbox" class="checkbox-round" />
+                                    <label for="" class="ml-2 text-lg font-bold">MARKETING</label><br />
+                                </div>
+                            </div>
+                            <div class="relative">
+                                <h5
+                                    class="px-5 w-fit mt-2 py-3 rounded-full bg-[#313131] text-white text-sm font-bold mx-auto mr-[100px]">
+                                    What’s Your Budget?</h5>
+                                <div style="clip-path: polygon(48% 0, 0% 100%, 100% 100%);"
+                                    class="w-[15px] h-[15px] bg-[#313131] absolute -bottom-[4px] right-[100px] rotate-[140deg]">
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 lg:mx-0 mx-7 lg:ml-28 2xl:ml-3">
+                <h1 class="leading-none text-[40px] lg:text-6xl font-extrabold uppercase">LET’S TALK ABOUT YOUR PROJECT.
+                </h1>
+                <div class="mt-6">
+                    <a href="">
+                        <button
+                            class=" bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">SERVICES</button>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 </body>
+
 </html>
