@@ -18,4 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', [ContactController::class, 'sendEmail'])->name('sendEmail');
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+
+//Route::get('/test', [ContactController::class, 'sendEmail'])->name('sendEmail');
