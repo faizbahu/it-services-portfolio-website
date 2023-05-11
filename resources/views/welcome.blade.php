@@ -174,7 +174,7 @@
                 <div>
                     <img class="w-48 lg:w-auto" src="/images/rectangle.png" alt="">
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Discover & define</h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4">Together we dive right into the problem with the goal of
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Together we dive right into the problem with the goal of
                         uncovering ideas and opportunities. No vision is too big for a simple prototype. Validated ideas
                         ensure we’re on the right path. </p>
                 </div>
@@ -183,7 +183,7 @@
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Design & build
 
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4">Delightful user experiences meet precise engineering. By
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Delightful user experiences meet precise engineering. By
                         continuously optimizing and improving with user feedback, we craft products that are rock-solid
                         and simple to use.
                     </p>
@@ -192,7 +192,7 @@
                     <img class="w-48 lg:w-auto" src="/images/tick.png" alt="">
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Launch & scale
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4">Achieving a product-market-fit is about making the right
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Achieving a product-market-fit is about making the right
                         decisions. The data-driven approach helps us draw insights, refine the product, and utilize the
                         right distribution and promotion strategy.
 
@@ -200,7 +200,7 @@
                 </div>
             </div>
             <div class="flex-1 mx-7 lg:mx-0">
-                <h1 class="leading-none text-[40px] lg:text-6xl font-extrabold uppercase">Beautifully Built Websites &
+                <h1 class="text-[37px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px]">Beautifully Built Websites &
                     Apps.</h1>
                 <div class="mt-6">
                     <a href="">
@@ -226,7 +226,7 @@
                             OFFERS.</h1>
                         <a href="">
                             <button
-                                class="ml-5 lg:ml-28 2xl:ml-3 bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 mt-7 hover:bg-[#0a90db]">SERVICES</button>
+                                class="ml-5 lg:ml-28 2xl:ml-3 bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 mt-7 hover:bg-[#0a90db]">PROJECTS</button>
                         </a>
                     </div>
                     <div class="flex flex-col lg:flex-row  lg:space-x-14 text-center mt-24 lg:mx-28 2xl:mx-3 2xl:ml-24">
@@ -353,7 +353,7 @@
                 </div>
             </div>
             <div class="flex-1 lg:mx-0 mx-7 lg:ml-28 2xl:ml-3">
-                <h1 class="leading-none text-[40px] lg:text-6xl font-extrabold uppercase">HERE ARE SOME RECENT PROJECTS.
+                <h1 class="text-[40px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px]">HERE ARE SOME RECENT PROJECTS.
                 </h1>
                 <div class="mt-6">
                     <a href="">
@@ -437,7 +437,6 @@
     <section>
         <div
             class="lg:ml-auto flex container mx-auto justify-between mt-[74px] lg:mt-96 2xl:mt-[28rem] mb-20 flex-col-reverse lg:flex-row ">
-
             <div class="flex-1 mt-10 lg:mt-0 lg:mx-0 mx-5 lg:ml-28 2xl:ml-3">
                 <div class="relative hidden lg:block">
                     <img class="relative w-48 lg:w-auto" src="/images/iphone.png" alt="">
@@ -518,8 +517,9 @@
                     </div>
                 </div>
                 <div class="w-full text-center block lg:hidden">
-                    <h3 class="text-xl text-[#4BBEFF] mt-16 font-bold">Please Fill Out This Form.</h3>
-                    <div class="bg-[#E6E6E6] w-[221px] h-[2px] my-5 mx-auto"></div>
+                    <div class="bg-[#E6E6E6] w-[221px] h-[2px]  mx-auto mt-16"></div>
+                    <h3 class="text-xl text-[#4BBEFF] mt-5 mb-16 font-bold">Please Fill Out This Form.</h3>
+                    
                     <form action="">
                         <input
                             class="outline-none py-3 pl-5 w-full rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
@@ -570,22 +570,22 @@
                             </div>
                         </div>
                         <div class="boxed gap-y-1.5 mt-4">
-                            <input type="radio" id="amount-1" name="skills" value="amount-1">
+                            <input type="radio" id="amount-1-mb" name="skills" value="amount-1">
                             <label
                                 class="cursor-pointer border font-normal  text-xs bg-white rounded-full py-3.5 w-44 items-center flex justify-center"
-                                for="amount-1">Up to $5,000</label>
-                            <input type="radio" id="amount-2" name="skills" value="amount-2">
+                                for="amount-1-mb">Up to $5,000</label>
+                            <input type="radio" id="amount-2-mb" name="skills" value="amount-2">
                             <label
                                 class="cursor-pointer mt-2 border font-normal  text-xs bg-white rounded-full py-3.5 w-44 items-center flex justify-center"
-                                for="amount-2">$5,000 to $10,000</label>
-                            <input type="radio" id="amount-3" name="skills" value="amount-3">
+                                for="amount-2-mb">$5,000 to $10,000</label>
+                            <input type="radio" id="amount-3-mb" name="skills" value="amount-3">
                             <label
                                 class="cursor-pointer mt-2 border font-normal  text-xs bg-white rounded-full py-3.5 w-44 items-center flex justify-center"
-                                for="amount-3">$10,000 to $50,000</label>
-                            <input type="radio" id="amount-4" name="skills" value="amount-4">
+                                for="amount-3-mb">$10,000 to $50,000</label>
+                            <input type="radio" id="amount-4-mb" name="skills" value="amount-4">
                             <label
                                 class="cursor-pointer px-10 mt-2 border font-normal text-xs rounded-full py-3.5 w-44 items-center flex justify-center"
-                                for="amount-4">Over $100,000</label>
+                                for="amount-4-mb">Over $100,000</label>
                         </div>
                         <button class="mt-5 text-lg bg-[#4BBEFF] font-bold px-20 py-2 rounded-full text-white"
                             type="submit">SEND NOW</button>
@@ -669,7 +669,7 @@
                             class=" bg-white text-base font-bold text-[#4BBEFF] px-11 py-2.5 hover:bg-[#4BBEFF] hover:text-white">CALL
                             NOW</button>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <button
                             class="mt-3 bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
                             TALK</button>
@@ -715,7 +715,7 @@
                         class=" bg-white text-base font-bold text-[#4BBEFF] px-11 py-2.5 hover:bg-[#4BBEFF] hover:text-white">CALL
                         NOW</button>
                 </a>
-                <a href="">
+                <a href="#">
                     <button
                         class="mt-3 bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
                         TALK</button>
