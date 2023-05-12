@@ -97,8 +97,13 @@
             width: 57px;
             padding: 12px 14px;
         }
+
         .bluring {
             backdrop-filter: blur(120.5px);
+        }
+
+        #smoothly {
+            scroll-behavior: smooth !important;
         }
 
 
@@ -178,7 +183,8 @@
             </div>
             <nav class="relative">
                 <div class="block lg:hidden max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-                    <div class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
+                    <div
+                        class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
                         <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
                         <div class="flex flex-col items-center">
                             <img class="" src="images/logo.png" alt="Image" />
@@ -222,9 +228,10 @@
                     </div>
                     <div class="border-t border-b border-white">
                         <div class="flex  space-x-10 items-center justify-center py-6 px-9">
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="lucide lucide-instagram text-white">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-instagram text-white">
                                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                                     <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
@@ -244,11 +251,14 @@
             </nav>
         </div>
         <div class="container flex  mx-auto flex-1 flex-col">
-            <div class="flex-1 justify-center flex flex-col ml-10 lg:ml-28 2xl:ml-3">
-                <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold">LET US TAKE </h1>
-                <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold"> YOUR BUSINESS </h1>
-                <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold"> TO THE NEXT </h1>
-                <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold"> LEVEL.</h1>
+            <div class="flex-1 justify-center flex flex-col ml-10 lg:ml-28 2xl:ml-3 ">
+                <h1 class=" text-4xl lg:text-7xl text-white font-bold !leading-[30px] lg:!leading-[57px]">LET US TAKE
+                </h1>
+                <h1 class="text-4xl lg:text-7xl text-white font-bold !leading-[30px] lg:!leading-[57px]"> YOUR BUSINESS
+                </h1>
+                <h1 class="text-4xl lg:text-7xl text-white font-bold !leading-[30px] lg:!leading-[57px]"> TO THE NEXT
+                </h1>
+                <h1 class="text-4xl lg:text-7xl text-white font-bold !leading-[30px] lg:!leading-[57px]"> LEVEL.</h1>
                 <a href="">
                     <button
                         class="bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 mt-7 hover:bg-[#0a90db]">SERVICES</button>
@@ -263,7 +273,7 @@
         </div>
         <div class="linear-gradient-2 lg:absolute lg:-bottom-[17%] 2xl:-bottom-[12%] extra-width"></div>
     </div>
-    <section class="scroll-smooth">
+    <section id="smoothly" class="scroll-smooth">
         <div
             class="lg:ml-auto flex container mx-auto justify-between mt-[74px] lg:mt-80 mb-20 lg:mb-40 flex-col-reverse lg:flex-row ">
 
@@ -271,7 +281,8 @@
                 <div>
                     <img class="w-48 lg:w-auto" src="/images/rectangle.png" alt="">
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Discover & define</h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Together we dive right into the problem with the goal of
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Together we dive right into the
+                        problem with the goal of
                         uncovering ideas and opportunities. No vision is too big for a simple prototype. Validated ideas
                         ensure we’re on the right path. </p>
                 </div>
@@ -280,7 +291,8 @@
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Design & build
 
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Delightful user experiences meet precise engineering. By
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Delightful user experiences
+                        meet precise engineering. By
                         continuously optimizing and improving with user feedback, we craft products that are rock-solid
                         and simple to use.
                     </p>
@@ -289,7 +301,8 @@
                     <img class="w-48 lg:w-auto" src="/images/tick.png" alt="">
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Launch & scale
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Achieving a product-market-fit is about making the right
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Achieving a product-market-fit
+                        is about making the right
                         decisions. The data-driven approach helps us draw insights, refine the product, and utilize the
                         right distribution and promotion strategy.
 
@@ -297,9 +310,11 @@
                 </div>
             </div>
             <div class="flex-1 mx-7 lg:mx-0">
-                <h1 class="text-[37px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px]">Beautifully Built Websites &
+                <h1
+                    class="text-[37px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px] lg:sticky top-[4%]">
+                    Beautifully Built Websites &
                     Apps.</h1>
-                <div class="mt-6">
+                <div class="mt-6 lg:sticky top-[22%] 2xl:top-[16%]">
                     <a href="">
                         <button
                             class=" bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
@@ -370,7 +385,7 @@
             <div class="linear-gradient-2 lg:-mb-[126px]"></div>
         </div>
     </section>
-    <section>
+    <section class="smoothly">
         <div
             class="lg:ml-auto flex container mx-auto justify-between mt-[74px] lg:mt-80 mb-20 lg:mb-40 flex-col-reverse lg:flex-row ">
 
@@ -450,9 +465,11 @@
                 </div>
             </div>
             <div class="flex-1 lg:mx-0 mx-7 lg:ml-28 2xl:ml-3">
-                <h1 class="text-[40px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px]">HERE ARE SOME RECENT PROJECTS.
+                <h1
+                    class="text-[40px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px] lg:sticky top-[4%]">
+                    HERE ARE SOME RECENT PROJECTS.
                 </h1>
-                <div class="mt-6">
+                <div class="mt-6 lg:sticky top-[27%] 2xl:top-[16%]">
                     <a href="">
                         <button
                             class=" bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
@@ -531,7 +548,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="smoothly">
         <div
             class="lg:ml-auto flex container mx-auto justify-between mt-[74px] lg:mt-96 2xl:mt-[28rem] mb-20 flex-col-reverse lg:flex-row ">
             <div class="flex-1 mt-10 lg:mt-0 lg:mx-0 mx-5 lg:ml-28 2xl:ml-3">
@@ -616,7 +633,7 @@
                 <div class="w-full text-center block lg:hidden">
                     <div class="bg-[#E6E6E6] w-[221px] h-[2px]  mx-auto mt-16"></div>
                     <h3 class="text-xl text-[#4BBEFF] mt-5 mb-16 font-bold">Please Fill Out This Form.</h3>
-                    
+
                     <form action="">
                         <input
                             class="outline-none py-3 pl-5 w-full rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
@@ -691,9 +708,11 @@
                 </div>
             </div>
             <div class="flex-1 lg:mx-0 mx-7 lg:ml-28 2xl:ml-3">
-                <h1 class="leading-none text-[40px] lg:text-6xl font-extrabold uppercase">LET’S TALK ABOUT YOUR PROJECT.
+                <h1
+                    class="text-[40px] lg:text-6xl font-extrabold !leading-[30px] lg:!leading-[48px] uppercase lg:sticky top-[4%]">
+                    LET’S TALK ABOUT YOUR PROJECT.
                 </h1>
-                <div class="mt-6">
+                <div class="mt-6 lg:sticky top-[27%] 2xl:top-[16%]">
                     <a href="">
                         <button
                             class=" bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">SERVICES</button>
@@ -795,13 +814,16 @@
                 </div>
             </div>
             <div class="flex">
-                <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
+                <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                    href="">
                     <div> HOME</div>
                 </a>
-                <a class="mr-10  no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
+                <a class="mr-10  no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                    href="">
                     <div> SERVICES</div>
                 </a>
-                <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
+                <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                    href="">
                     <div> PROJECTS</div>
                 </a>
             </div>
@@ -829,5 +851,24 @@
         navbarToggle.querySelector('svg:first-child').classList.toggle('block');
         navbarToggle.querySelector('svg:last-child').classList.toggle('hidden');
     });
+
+
+    let myDiv = document.getElementById("smoothly");
+    let intervalId;
+
+    function slowScroll() {
+        console.log("slow")
+        let scrollPos = myDiv.scrollTop;
+        myDiv.scrollTop = scrollPos + 1; 
+    }
+
+    myDiv.addEventListener("mouseenter", function () {
+        intervalId = setInterval(slowScroll, 50); 
+    });
+
+    myDiv.addEventListener("mouseleave", function () {
+        clearInterval(intervalId); 
+    });
 </script>
+
 </html>
