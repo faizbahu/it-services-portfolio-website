@@ -97,6 +97,9 @@
             width: 57px;
             padding: 12px 14px;
         }
+        .bluring {
+            backdrop-filter: blur(120.5px);
+        }
 
 
         @media (min-width: 1024px) {
@@ -122,20 +125,20 @@
         <img class="extra-width height object-cover lg:!h-auto absolute -z-10" src="images/hero-section.png" />
         <div class="for-background linear-gradient lg:pb-20">
 
-            <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
+            <!-- <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
                 <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
                 <div class="flex flex-col items-center">
                     <img class="" src="images/logo.png" alt="Image" />
                     <img class="block lg:hidden mt-3" src="images/dropdown.png" alt="">
                 </div>
                 <div class="space-x-10 lg:flex hidden">
-                    <a class="no-underline text-white text-base hover:font-bold" href="">
+                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                         <div> HOME</div>
                     </a>
-                    <a class="no-underline text-white text-base hover:font-bold" href="">
+                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                         <div> SERVICES</div>
                     </a>
-                    <a class="no-underline text-white text-base hover:font-bold" href="">
+                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                         <div> PROJECTS</div>
                     </a>
                 </div>
@@ -144,6 +147,100 @@
                         class="hidden lg:block bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
                         TALK</button>
                 </a>
+            </nav> -->
+            <div class="hidden lg:block">
+                <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
+                    <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
+                    <div class="flex flex-col items-center">
+                        <img class="" src="images/logo.png" alt="Image" />
+                        <img class="block lg:hidden mt-3" src="images/dropdown.png" alt="">
+                    </div>
+                    <div class="space-x-10 lg:flex hidden">
+                        <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                            href="">
+                            <div> HOME</div>
+                        </a>
+                        <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                            href="">
+                            <div> SERVICES</div>
+                        </a>
+                        <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                            href="">
+                            <div> PROJECTS</div>
+                        </a>
+                    </div>
+                    <a href="">
+                        <button
+                            class="hidden lg:block bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
+                            TALK</button>
+                    </a>
+                </nav>
+            </div>
+            <nav class="relative">
+                <div class="block lg:hidden max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+                    <div class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
+                        <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
+                        <div class="flex flex-col items-center">
+                            <img class="" src="images/logo.png" alt="Image" />
+                            <img id="main-menu" class="block lg:hidden mt-3" src="images/dropdown.png" alt="">
+                        </div>
+                        <div class="hidden sm:ml-6">
+                            <div class="flex">
+                                <a href="#"
+                                    class="px-3 py-2 rounded-md text-sm font-medium text-white hover:text-gray-300">Home</a>
+                                <a href="#"
+                                    class="px-3 py-2 rounded-md text-sm font-medium text-white hover:text-gray-300">About</a>
+                                <a href="#"
+                                    class="px-3 py-2 rounded-md text-sm font-medium text-white hover:text-gray-300">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:hidden bg-black absolute w-full opacity-[0.9] bluring z-[2]" id="menu">
+                    <div class="flex justify-between py-6 px-9 border-b border-white">
+                        <a href="">
+                            <button class="text-white font-bold text-lg hover:text-[#4BBEFF]">CALL NOW</button></a>
+                        <img src="/images/breaker.png" alt="">
+                        <a href="">
+                            <button class="text-white font-bold text-lg hover:text-[#4BBEFF]">LET'S TALK</button>
+                        </a>
+                    </div>
+                    <div class="mt-16 mb-20 ml-5">
+                        <a href="">
+                            <h1 class="text-5xl text-white hover:text-[#4BBEFF] font-bold ">SERVICES</h1>
+                        </a>
+                        <a href="">
+                            <h1 class="text-5xl text-white hover:text-[#4BBEFF] font-bold mt-16">PROJECTS</h1>
+                        </a>
+                        <a href="">
+                            <h1 class="text-5xl text-white hover:text-[#4BBEFF] font-bold mt-16">LEARN MORE</h1>
+                        </a>
+                    </div>
+                    <div class="text-center text-white font-bold text-base mb-7">
+                        <h1>STAY CONNECTED</h1>
+                        <img class="m-auto mt-3 cursor-pointer" src="images/dropdown.png" alt="">
+                    </div>
+                    <div class="border-t border-b border-white">
+                        <div class="flex  space-x-10 items-center justify-center py-6 px-9">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-instagram text-white">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href=""> <img src="images/twitter.png" alt=""></a>
+                            <a href=""><img src="images/fb.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="my-9 flex justify-center">
+                        <a href="">
+                            <button
+                                class=" bg-[#4BBEFF] text-base font-bold text-white px-16 py-2.5 hover:bg-[#0a90db]">EXIT</button>
+                        </a>
+                    </div>
+                </div>
             </nav>
         </div>
         <div class="container flex  mx-auto flex-1 flex-col">
@@ -698,13 +795,13 @@
                 </div>
             </div>
             <div class="flex">
-                <a class="mr-14 no-underline text-white text-base hover:font-bold" href="">
+                <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                     <div> HOME</div>
                 </a>
-                <a class="mr-10  no-underline text-white text-base hover:font-bold" href="">
+                <a class="mr-10  no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                     <div> SERVICES</div>
                 </a>
-                <a class="no-underline text-white text-base hover:font-bold" href="">
+                <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                     <div> PROJECTS</div>
                 </a>
             </div>
@@ -724,5 +821,13 @@
         </div>
     </section>
 </body>
-
+<script>
+    const navbarToggle = document.getElementById('main-menu');
+    const navbarMenu = document.getElementById('menu');
+    navbarToggle.addEventListener('click', () => {
+        navbarMenu.classList.toggle('hidden');
+        navbarToggle.querySelector('svg:first-child').classList.toggle('block');
+        navbarToggle.querySelector('svg:last-child').classList.toggle('hidden');
+    });
+</script>
 </html>
