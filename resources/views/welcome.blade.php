@@ -97,8 +97,13 @@
             width: 57px;
             padding: 12px 14px;
         }
+
         .bluring {
             backdrop-filter: blur(120.5px);
+        }
+
+        #smoothly {
+            scroll-behavior: smooth !important;
         }
 
 
@@ -121,33 +126,10 @@
 </head>
 
 <body>
-    <div class="flex flex-col min-h-screen relative">
+    <div class="flex flex-col min-h-screen lg:min-h-0 xl:min-h-screen relative">
         <img class="extra-width height object-cover lg:!h-auto absolute -z-10" src="images/hero-section.png" />
+        <!-- <div class="linear-gradient-2 lg:absolute lg:-bottom-[3%] 2xl:-bottom-[12%] extra-width"></div> -->
         <div class="for-background linear-gradient lg:pb-20">
-
-            <!-- <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
-                <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
-                <div class="flex flex-col items-center">
-                    <img class="" src="images/logo.png" alt="Image" />
-                    <img class="block lg:hidden mt-3" src="images/dropdown.png" alt="">
-                </div>
-                <div class="space-x-10 lg:flex hidden">
-                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
-                        <div> HOME</div>
-                    </a>
-                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
-                        <div> SERVICES</div>
-                    </a>
-                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
-                        <div> PROJECTS</div>
-                    </a>
-                </div>
-                <a href="">
-                    <button
-                        class="hidden lg:block bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
-                        TALK</button>
-                </a>
-            </nav> -->
             <div class="hidden lg:block">
                 <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
                     <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
@@ -156,7 +138,7 @@
                         <img class="block lg:hidden mt-3" src="images/dropdown.png" alt="">
                     </div>
                     <div class="space-x-10 lg:flex hidden">
-                        <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                        <a class="no-underline text-white text-base hover:font-bold border-b-4  border-[#4BBEFF] w-fit pb-2"
                             href="">
                             <div> HOME</div>
                         </a>
@@ -178,13 +160,14 @@
             </div>
             <nav class="relative">
                 <div class="block lg:hidden max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-                    <div class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
+                    <div
+                        class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
                         <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
                         <div class="flex flex-col items-center">
                             <img class="" src="images/logo.png" alt="Image" />
                             <img id="main-menu" class="block lg:hidden mt-3" src="images/dropdown.png" alt="">
                         </div>
-                        <div class="hidden sm:ml-6">
+                        <div class="hidden sm:ml-6" >
                             <div class="flex">
                                 <a href="#"
                                     class="px-3 py-2 rounded-md text-sm font-medium text-white hover:text-gray-300">Home</a>
@@ -196,7 +179,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="sm:hidden bg-black absolute w-full opacity-[0.9] bluring z-[2]" id="menu">
+                <div class="hidden lg::hidden bg-black absolute w-full opacity-[0.9] bluring z-[11]" id="menu">
                     <div class="flex justify-between py-6 px-9 border-b border-white">
                         <a href="">
                             <button class="text-white font-bold text-lg hover:text-[#4BBEFF]">CALL NOW</button></a>
@@ -207,7 +190,7 @@
                     </div>
                     <div class="mt-16 mb-20 ml-5">
                         <a href="">
-                            <h1 class="text-5xl text-white hover:text-[#4BBEFF] font-bold ">SERVICES</h1>
+                            <h1 class="text-5xl text-[#4BBEFF] font-bold ">SERVICES</h1>
                         </a>
                         <a href="">
                             <h1 class="text-5xl text-white hover:text-[#4BBEFF] font-bold mt-16">PROJECTS</h1>
@@ -222,9 +205,10 @@
                     </div>
                     <div class="border-t border-b border-white">
                         <div class="flex  space-x-10 items-center justify-center py-6 px-9">
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="lucide lucide-instagram text-white">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-instagram text-white">
                                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                                     <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
@@ -244,11 +228,14 @@
             </nav>
         </div>
         <div class="container flex  mx-auto flex-1 flex-col">
-            <div class="flex-1 justify-center flex flex-col ml-10 lg:ml-28 2xl:ml-3">
-                <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold">LET US TAKE </h1>
-                <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold"> YOUR BUSINESS </h1>
-                <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold"> TO THE NEXT </h1>
-                <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold"> LEVEL.</h1>
+            <div class="flex-1 justify-center flex flex-col ml-10 lg:ml-28 2xl:ml-3 ">
+                <h1 class=" text-4xl lg:text-7xl text-white font-bold !leading-[30px] lg:!leading-[57px]">LET US TAKE
+                </h1>
+                <h1 class="text-4xl lg:text-7xl text-white font-bold !leading-[30px] lg:!leading-[57px]"> YOUR BUSINESS
+                </h1>
+                <h1 class="text-4xl lg:text-7xl text-white font-bold !leading-[30px] lg:!leading-[57px]"> TO THE NEXT
+                </h1>
+                <h1 class="text-4xl lg:text-7xl text-white font-bold !leading-[30px] lg:!leading-[57px]"> LEVEL.</h1>
                 <a href="">
                     <button
                         class="bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 mt-7 hover:bg-[#0a90db]">SERVICES</button>
@@ -263,7 +250,7 @@
         </div>
         <div class="linear-gradient-2 lg:absolute lg:-bottom-[17%] 2xl:-bottom-[12%] extra-width"></div>
     </div>
-    <section class="scroll-smooth">
+    <section id="smoothly" class="scroll-smooth">
         <div
             class="lg:ml-auto flex container mx-auto justify-between mt-[74px] lg:mt-80 mb-20 lg:mb-40 flex-col-reverse lg:flex-row ">
 
@@ -271,7 +258,8 @@
                 <div>
                     <img class="w-48 lg:w-auto" src="/images/rectangle.png" alt="">
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Discover & define</h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Together we dive right into the problem with the goal of
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Together we dive right into the
+                        problem with the goal of
                         uncovering ideas and opportunities. No vision is too big for a simple prototype. Validated ideas
                         ensure we’re on the right path. </p>
                 </div>
@@ -280,7 +268,8 @@
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Design & build
 
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Delightful user experiences meet precise engineering. By
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Delightful user experiences
+                        meet precise engineering. By
                         continuously optimizing and improving with user feedback, we craft products that are rock-solid
                         and simple to use.
                     </p>
@@ -289,7 +278,8 @@
                     <img class="w-48 lg:w-auto" src="/images/tick.png" alt="">
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Launch & scale
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Achieving a product-market-fit is about making the right
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Achieving a product-market-fit
+                        is about making the right
                         decisions. The data-driven approach helps us draw insights, refine the product, and utilize the
                         right distribution and promotion strategy.
 
@@ -297,9 +287,11 @@
                 </div>
             </div>
             <div class="flex-1 mx-7 lg:mx-0">
-                <h1 class="text-[37px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px]">Beautifully Built Websites &
+                <h1
+                    class="text-[37px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px] lg:sticky top-[4%]">
+                    Beautifully Built Websites &
                     Apps.</h1>
-                <div class="mt-6">
+                <div class="mt-6 lg:sticky top-[22%] 2xl:top-[16%]">
                     <a href="">
                         <button
                             class=" bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
@@ -339,7 +331,7 @@
                         </div>
                         <div style="backdrop-filter: blur(7.5px);"
                             class="mt-20 lg:mt-0 mx-5 lg:mx-0 lg:w-[350px] bg-[#0000005C] text-white px-7 pt-8 pb-12">
-                            <img class="m-auto" src="/images/Icon-2.png" alt="">
+                            <img class="m-auto" src="/images/Icon-3.png" alt="">
                             <p class="mt-9 text-xs ">APP DEVELOPMENT</p>
                             <div class="w-20  h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-10"></div>
                             <p class="text-xs uppercase leading-5">We understand that creating a successful app requires
@@ -350,7 +342,7 @@
                         </div>
                         <div style="backdrop-filter: blur(7.5px);"
                             class="mb-20 lg:mb-0 mt-20 lg:mt-0 mx-5 lg:mx-0 lg:w-[350px] bg-[#0000005C] text-white px-7 pt-8 pb-12">
-                            <img class="m-auto" src="/images/Icon-3.png" alt="">
+                            <img class="m-auto" src="/images/Icon-2.png" alt="">
                             <p class="mt-9 text-xs ">MARKETING</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-10"></div>
                             <p class="text-xs uppercase leading-5">We take a data-driven approach to marketing, offering
@@ -370,7 +362,7 @@
             <div class="linear-gradient-2 lg:-mb-[126px]"></div>
         </div>
     </section>
-    <section>
+    <section class="smoothly">
         <div
             class="lg:ml-auto flex container mx-auto justify-between mt-[74px] lg:mt-80 mb-20 lg:mb-40 flex-col-reverse lg:flex-row ">
 
@@ -402,7 +394,7 @@
                             <img src="/images/star.png" alt="">
                         </span>
                     </div>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4">I can't say enough good things about my experience
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[20px]">I can't say enough good things about my experience
                         working with Kovsk Digital. They truly went above and beyond to create a website that exceeded
                         my expectations, and I would highly recommend them to anyone looking for top-notch web design
                         and development services.</p>
@@ -421,7 +413,7 @@
                             </span>
                         </div>
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4">couldn't be happier with the work that Kovsk Digital did
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[20px]">couldn't be happier with the work that Kovsk Digital did
                         on my website. They exceeded my expectations in every way, and I would highly recommend them to
                         anyone looking for top-notch web design and development services. If you're looking to take your
                         car rental business to the next level, Kovsk Digital is the partner you need.
@@ -441,7 +433,7 @@
                             <img src="/images/star.png" alt="">
                         </span>
                     </div>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4">The website looked great and functioned flawlessly, and
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[20px]">The website looked great and functioned flawlessly, and
                         I've already seen an increase in sales since it launched. If you're looking for a web
                         development partner that truly cares about your business and your success, I would highly
                         recommend Kovsk Digital. They are simply the best.
@@ -450,9 +442,11 @@
                 </div>
             </div>
             <div class="flex-1 lg:mx-0 mx-7 lg:ml-28 2xl:ml-3">
-                <h1 class="text-[40px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px]">HERE ARE SOME RECENT PROJECTS.
+                <h1
+                    class="text-[40px] lg:text-6xl font-extrabold uppercase !leading-[30px] lg:!leading-[48px] lg:sticky top-[4%]">
+                    HERE ARE SOME RECENT PROJECTS.
                 </h1>
-                <div class="mt-6">
+                <div class="mt-6 lg:sticky top-[27%] 2xl:top-[16%]">
                     <a href="">
                         <button
                             class=" bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
@@ -480,13 +474,13 @@
                                 MORE</button>
                         </a>
                     </div>
-                    <div class="flex flex-col lg:flex-row  lg:space-x-7 text-center mt-24 lg:mx-28 2xl:mx-3 2xl:ml-24">
+                    <div class="flex flex-col lg:flex-row  lg:space-x-7 text-center mt-24 mx-0 xl:mx-28 2xl:mx-3 2xl:ml-24">
                         <div style="backdrop-filter: blur(7.5px);"
                             class="rounded-[85px] mx-5 lg:mx-0 flex-1 bg-[#0000005C] text-white px-7 pt-8 pb-12">
 
                             <p class="mt-9 text-xs ">STEP 1</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="text-4xl font-bold mb-4">RESEARCH</h1>
+                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4">RESEARCH</h1>
                             <p class="text-xs uppercase leading-5">All of our projects start with a client research to
                                 identify goals and establish a strategy for the project.</p>
                         </div>
@@ -495,7 +489,7 @@
 
                             <p class="mt-9 text-xs ">STEP 2</p>
                             <div class="w-20  h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="text-4xl font-bold mb-4">DESIGN</h1>
+                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4">DESIGN</h1>
                             <p class="text-xs uppercase leading-5">After we establish our strategy, our team begins
                                 designing the layout & look of your new website.
                             </p>
@@ -505,7 +499,7 @@
 
                             <p class="mt-9 text-xs ">STEP 3</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="text-4xl font-bold mb-4">Engineering</h1>
+                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4 uppercase">Engineering</h1>
                             <p class="text-xs uppercase leading-5">Once the design has been finalized, our programmers
                                 begin developing your responsive website so it works seamlessly on desktop and mobile.
                             </p>
@@ -515,7 +509,7 @@
 
                             <p class="mt-9 text-xs ">STEP 4</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="text-4xl font-bold mb-4">DATA</h1>
+                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4">DATA</h1>
                             <p class="text-xs uppercase leading-5">After thorough testing, it’s time to launch your new
                                 website and begin driving traffic with digital marketing.
                             </p>
@@ -531,7 +525,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="smoothly">
         <div
             class="lg:ml-auto flex container mx-auto justify-between mt-[74px] lg:mt-96 2xl:mt-[28rem] mb-20 flex-col-reverse lg:flex-row ">
             <div class="flex-1 mt-10 lg:mt-0 lg:mx-0 mx-5 lg:ml-28 2xl:ml-3">
@@ -616,7 +610,7 @@
                 <div class="w-full text-center block lg:hidden">
                     <div class="bg-[#E6E6E6] w-[221px] h-[2px]  mx-auto mt-16"></div>
                     <h3 class="text-xl text-[#4BBEFF] mt-5 mb-16 font-bold">Please Fill Out This Form.</h3>
-                    
+
                     <form action="">
                         <input
                             class="outline-none py-3 pl-5 w-full rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
@@ -691,9 +685,11 @@
                 </div>
             </div>
             <div class="flex-1 lg:mx-0 mx-7 lg:ml-28 2xl:ml-3">
-                <h1 class="leading-none text-[40px] lg:text-6xl font-extrabold uppercase">LET’S TALK ABOUT YOUR PROJECT.
+                <h1
+                    class="text-[40px] lg:text-6xl font-extrabold !leading-[30px] lg:!leading-[48px] uppercase lg:sticky top-[4%]">
+                    LET’S TALK ABOUT YOUR PROJECT.
                 </h1>
-                <div class="mt-6">
+                <div class="mt-6 lg:sticky top-[27%] 2xl:top-[16%]">
                     <a href="">
                         <button
                             class=" bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">SERVICES</button>
@@ -795,13 +791,16 @@
                 </div>
             </div>
             <div class="flex">
-                <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
+                <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-[#4BBEFF] w-fit pb-2"
+                    href="">
                     <div> HOME</div>
                 </a>
-                <a class="mr-10  no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
+                <a class="mr-10  no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                    href="">
                     <div> SERVICES</div>
                 </a>
-                <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
+                <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                    href="">
                     <div> PROJECTS</div>
                 </a>
             </div>
@@ -826,8 +825,58 @@
     const navbarMenu = document.getElementById('menu');
     navbarToggle.addEventListener('click', () => {
         navbarMenu.classList.toggle('hidden');
-        navbarToggle.querySelector('svg:first-child').classList.toggle('block');
+        
         navbarToggle.querySelector('svg:last-child').classList.toggle('hidden');
+        navbarToggle.querySelector('svg:first-child').classList.toggle('block');
     });
+
+
+    // let myDiv = document.getElementById("smoothly");
+    // let intervalId;
+
+    // function slowScroll() {
+    //     console.log("slow")
+    //     let scrollPos = myDiv.scrollTop;
+    //     myDiv.scrollTop = scrollPos + 1; 
+    // }
+
+    // myDiv.addEventListener("mouseenter", function () {
+    //     intervalId = setInterval(slowScroll, 50); 
+    // });
+
+    // myDiv.addEventListener("mouseleave", function () {
+    //     clearInterval(intervalId); 
+    // });
+
+
+
+
+    const section = document.getElementById("smoothly");
+
+// Set the scroll behavior for the section
+section.style.scrollBehavior = "smooth";
+section.style.scrollSnapType = "y mandatory";
+
+// Get the current scroll position of the section
+let scrollTop = section.scrollTop;
+
+// Add an event listener to the section to handle scroll events
+section.addEventListener("scroll", function(event) {
+  // Get the new scroll position of the section
+  const newScrollTop = section.scrollTop;
+
+  // Calculate the difference in scroll position between the current and new scroll positions
+  const scrollDiff = newScrollTop - scrollTop;
+
+  // Multiply the scroll difference by a factor to slow down the scrolling
+  const slowScrollDiff = scrollDiff * 10;
+
+  // Set the new scroll position for the section
+  section.scrollTop = scrollTop + slowScrollDiff;
+
+  // Update the current scroll position
+  scrollTop = section.scrollTop;
+});
 </script>
+
 </html>
