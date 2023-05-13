@@ -126,33 +126,10 @@
 </head>
 
 <body>
-    <div class="flex flex-col min-h-screen relative">
+    <div class="flex flex-col min-h-screen lg:min-h-0 xl:min-h-screen relative">
         <img class="extra-width height object-cover lg:!h-auto absolute -z-10" src="images/hero-section.png" />
+        <!-- <div class="linear-gradient-2 lg:absolute lg:-bottom-[3%] 2xl:-bottom-[12%] extra-width"></div> -->
         <div class="for-background linear-gradient lg:pb-20">
-
-            <!-- <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
-                <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
-                <div class="flex flex-col items-center">
-                    <img class="" src="images/logo.png" alt="Image" />
-                    <img class="block lg:hidden mt-3" src="images/dropdown.png" alt="">
-                </div>
-                <div class="space-x-10 lg:flex hidden">
-                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
-                        <div> HOME</div>
-                    </a>
-                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
-                        <div> SERVICES</div>
-                    </a>
-                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
-                        <div> PROJECTS</div>
-                    </a>
-                </div>
-                <a href="">
-                    <button
-                        class="hidden lg:block bg-[#4BBEFF] text-base font-bold text-white px-11 py-2.5 hover:bg-[#0a90db]">LET'S
-                        TALK</button>
-                </a>
-            </nav> -->
             <div class="hidden lg:block">
                 <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
                     <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
@@ -161,7 +138,7 @@
                         <img class="block lg:hidden mt-3" src="images/dropdown.png" alt="">
                     </div>
                     <div class="space-x-10 lg:flex hidden">
-                        <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                        <a class="no-underline text-white text-base hover:font-bold border-b-4  border-[#4BBEFF] w-fit pb-2"
                             href="">
                             <div> HOME</div>
                         </a>
@@ -190,7 +167,7 @@
                             <img class="" src="images/logo.png" alt="Image" />
                             <img id="main-menu" class="block lg:hidden mt-3" src="images/dropdown.png" alt="">
                         </div>
-                        <div class="hidden sm:ml-6">
+                        <div class="hidden sm:ml-6" >
                             <div class="flex">
                                 <a href="#"
                                     class="px-3 py-2 rounded-md text-sm font-medium text-white hover:text-gray-300">Home</a>
@@ -202,7 +179,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="sm:hidden bg-black absolute w-full opacity-[0.9] bluring z-[2]" id="menu">
+                <div class="hidden lg::hidden bg-black absolute w-full opacity-[0.9] bluring z-[11]" id="menu">
                     <div class="flex justify-between py-6 px-9 border-b border-white">
                         <a href="">
                             <button class="text-white font-bold text-lg hover:text-[#4BBEFF]">CALL NOW</button></a>
@@ -213,7 +190,7 @@
                     </div>
                     <div class="mt-16 mb-20 ml-5">
                         <a href="">
-                            <h1 class="text-5xl text-white hover:text-[#4BBEFF] font-bold ">SERVICES</h1>
+                            <h1 class="text-5xl text-[#4BBEFF] font-bold ">SERVICES</h1>
                         </a>
                         <a href="">
                             <h1 class="text-5xl text-white hover:text-[#4BBEFF] font-bold mt-16">PROJECTS</h1>
@@ -354,7 +331,7 @@
                         </div>
                         <div style="backdrop-filter: blur(7.5px);"
                             class="mt-20 lg:mt-0 mx-5 lg:mx-0 lg:w-[350px] bg-[#0000005C] text-white px-7 pt-8 pb-12">
-                            <img class="m-auto" src="/images/Icon-2.png" alt="">
+                            <img class="m-auto" src="/images/Icon-3.png" alt="">
                             <p class="mt-9 text-xs ">APP DEVELOPMENT</p>
                             <div class="w-20  h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-10"></div>
                             <p class="text-xs uppercase leading-5">We understand that creating a successful app requires
@@ -365,7 +342,7 @@
                         </div>
                         <div style="backdrop-filter: blur(7.5px);"
                             class="mb-20 lg:mb-0 mt-20 lg:mt-0 mx-5 lg:mx-0 lg:w-[350px] bg-[#0000005C] text-white px-7 pt-8 pb-12">
-                            <img class="m-auto" src="/images/Icon-3.png" alt="">
+                            <img class="m-auto" src="/images/Icon-2.png" alt="">
                             <p class="mt-9 text-xs ">MARKETING</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-10"></div>
                             <p class="text-xs uppercase leading-5">We take a data-driven approach to marketing, offering
@@ -417,7 +394,7 @@
                             <img src="/images/star.png" alt="">
                         </span>
                     </div>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4">I can't say enough good things about my experience
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[20px]">I can't say enough good things about my experience
                         working with Kovsk Digital. They truly went above and beyond to create a website that exceeded
                         my expectations, and I would highly recommend them to anyone looking for top-notch web design
                         and development services.</p>
@@ -436,7 +413,7 @@
                             </span>
                         </div>
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4">couldn't be happier with the work that Kovsk Digital did
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[20px]">couldn't be happier with the work that Kovsk Digital did
                         on my website. They exceeded my expectations in every way, and I would highly recommend them to
                         anyone looking for top-notch web design and development services. If you're looking to take your
                         car rental business to the next level, Kovsk Digital is the partner you need.
@@ -456,7 +433,7 @@
                             <img src="/images/star.png" alt="">
                         </span>
                     </div>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4">The website looked great and functioned flawlessly, and
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[20px]">The website looked great and functioned flawlessly, and
                         I've already seen an increase in sales since it launched. If you're looking for a web
                         development partner that truly cares about your business and your success, I would highly
                         recommend Kovsk Digital. They are simply the best.
@@ -497,13 +474,13 @@
                                 MORE</button>
                         </a>
                     </div>
-                    <div class="flex flex-col lg:flex-row  lg:space-x-7 text-center mt-24 lg:mx-28 2xl:mx-3 2xl:ml-24">
+                    <div class="flex flex-col lg:flex-row  lg:space-x-7 text-center mt-24 mx-0 xl:mx-28 2xl:mx-3 2xl:ml-24">
                         <div style="backdrop-filter: blur(7.5px);"
                             class="rounded-[85px] mx-5 lg:mx-0 flex-1 bg-[#0000005C] text-white px-7 pt-8 pb-12">
 
                             <p class="mt-9 text-xs ">STEP 1</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="text-4xl font-bold mb-4">RESEARCH</h1>
+                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4">RESEARCH</h1>
                             <p class="text-xs uppercase leading-5">All of our projects start with a client research to
                                 identify goals and establish a strategy for the project.</p>
                         </div>
@@ -512,7 +489,7 @@
 
                             <p class="mt-9 text-xs ">STEP 2</p>
                             <div class="w-20  h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="text-4xl font-bold mb-4">DESIGN</h1>
+                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4">DESIGN</h1>
                             <p class="text-xs uppercase leading-5">After we establish our strategy, our team begins
                                 designing the layout & look of your new website.
                             </p>
@@ -522,7 +499,7 @@
 
                             <p class="mt-9 text-xs ">STEP 3</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="text-4xl font-bold mb-4">Engineering</h1>
+                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4 uppercase">Engineering</h1>
                             <p class="text-xs uppercase leading-5">Once the design has been finalized, our programmers
                                 begin developing your responsive website so it works seamlessly on desktop and mobile.
                             </p>
@@ -532,7 +509,7 @@
 
                             <p class="mt-9 text-xs ">STEP 4</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="text-4xl font-bold mb-4">DATA</h1>
+                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4">DATA</h1>
                             <p class="text-xs uppercase leading-5">After thorough testing, it’s time to launch your new
                                 website and begin driving traffic with digital marketing.
                             </p>
@@ -814,7 +791,7 @@
                 </div>
             </div>
             <div class="flex">
-                <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-[#4BBEFF] w-fit pb-2"
                     href="">
                     <div> HOME</div>
                 </a>
@@ -848,27 +825,58 @@
     const navbarMenu = document.getElementById('menu');
     navbarToggle.addEventListener('click', () => {
         navbarMenu.classList.toggle('hidden');
-        navbarToggle.querySelector('svg:first-child').classList.toggle('block');
+        
         navbarToggle.querySelector('svg:last-child').classList.toggle('hidden');
+        navbarToggle.querySelector('svg:first-child').classList.toggle('block');
     });
 
 
-    let myDiv = document.getElementById("smoothly");
-    let intervalId;
+    // let myDiv = document.getElementById("smoothly");
+    // let intervalId;
 
-    function slowScroll() {
-        console.log("slow")
-        let scrollPos = myDiv.scrollTop;
-        myDiv.scrollTop = scrollPos + 1; 
-    }
+    // function slowScroll() {
+    //     console.log("slow")
+    //     let scrollPos = myDiv.scrollTop;
+    //     myDiv.scrollTop = scrollPos + 1; 
+    // }
 
-    myDiv.addEventListener("mouseenter", function () {
-        intervalId = setInterval(slowScroll, 50); 
-    });
+    // myDiv.addEventListener("mouseenter", function () {
+    //     intervalId = setInterval(slowScroll, 50); 
+    // });
 
-    myDiv.addEventListener("mouseleave", function () {
-        clearInterval(intervalId); 
-    });
+    // myDiv.addEventListener("mouseleave", function () {
+    //     clearInterval(intervalId); 
+    // });
+
+
+
+
+    const section = document.getElementById("smoothly");
+
+// Set the scroll behavior for the section
+section.style.scrollBehavior = "smooth";
+section.style.scrollSnapType = "y mandatory";
+
+// Get the current scroll position of the section
+let scrollTop = section.scrollTop;
+
+// Add an event listener to the section to handle scroll events
+section.addEventListener("scroll", function(event) {
+  // Get the new scroll position of the section
+  const newScrollTop = section.scrollTop;
+
+  // Calculate the difference in scroll position between the current and new scroll positions
+  const scrollDiff = newScrollTop - scrollTop;
+
+  // Multiply the scroll difference by a factor to slow down the scrolling
+  const slowScrollDiff = scrollDiff * 10;
+
+  // Set the new scroll position for the section
+  section.scrollTop = scrollTop + slowScrollDiff;
+
+  // Update the current scroll position
+  scrollTop = section.scrollTop;
+});
 </script>
 
 </html>
