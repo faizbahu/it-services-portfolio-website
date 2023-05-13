@@ -266,7 +266,6 @@
                 <div class="mt-24 lg:mt-36">
                     <img class="w-48 lg:w-auto" src="/images/circle.png" alt="">
                     <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Design & build
-
                     </h1>
                     <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Delightful user experiences
                         meet precise engineering. By
@@ -282,7 +281,6 @@
                         is about making the right
                         decisions. The data-driven approach helps us draw insights, refine the product, and utilize the
                         right distribution and promotion strategy.
-
                     </p>
                 </div>
             </div>
@@ -745,13 +743,13 @@
                     </div>
                 </div>
                 <div class="flex mt-7 lg:mt-0 mb-8 lg:mb-0">
-                    <a class="mr-14 no-underline text-white text-base hover:font-bold" href="">
+                    <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-[#4BBEFF] w-fit pb-2" href="">
                         <div> HOME</div>
                     </a>
-                    <a class="mr-10  no-underline text-white text-base hover:font-bold" href="">
+                    <a class="mr-10  no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                         <div> SERVICES</div>
                     </a>
-                    <a class="no-underline text-white text-base hover:font-bold" href="">
+                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                         <div> PROJECTS</div>
                     </a>
                 </div>
