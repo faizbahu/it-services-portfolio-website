@@ -23,4 +23,4 @@ Route::get('/contact', function () {
 });
 
 
-//Route::get('/test', [ContactController::class, 'sendEmail'])->name('sendEmail');
+Route::get('/contact', [ContactController::class, 'sendEmail'])->name('sendEmail');

@@ -535,14 +535,14 @@
                         <form action="">
                             <input
                                 class="outline-none py-3 pl-5 pr-36 rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
-                                type="text" placeholder="Full Name?"></br>
+                                type="text" name="fullname" value="{{ old('fullname') }}" placeholder="Full Name?" required></br>
                             <input
                                 class="outline-none mt-1 py-3 pl-5 pr-36 rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
-                                type="text" placeholder="Email?"></br>
+                                type="text" name="email" value="{{ old('email') }}" placeholder="Email?" required></br>
                             <div class="relative">
                                 <input
                                     class="outline-none mt-1 py-3 pl-5 pr-36 rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
-                                    type="text" placeholder="Phone?">
+                                    type="text" name="phone" value="{{ old('phone') }}" placeholder="Phone?">
                                 <div style="clip-path: polygon(48% 0, 0% 100%, 100% 100%);"
                                     class="w-[15px] h-[15px] bg-[#4BBEFF] rotate-[-150deg] absolute -bottom-[5px] left-[103px] 2xl:left-[115px]">
                                 </div>
@@ -557,19 +557,19 @@
                             </div>
                             <div class="ml-[100px] text-left mt-3">
                                 <div class="">
-                                    <input type="checkbox" class="checkbox-round" />
+                                    <input type="checkbox" class="checkbox-round" name ="services[0]" value="WEB DEVELOPMENT" {{ old('services[0]')=='1' ? 'checked' : '' }} />
                                     <label for="" class="ml-2 text-lg font-bold">WEB DEVELOPMENT</label><br />
                                 </div>
                                 <div class="mt-2">
-                                    <input type="checkbox" class="checkbox-round" />
+                                    <input type="checkbox" class="checkbox-round" name ="services[1]" value="MOBILE DEVELOPMENT" {{ old('services[1]')=='1' ? 'checked' : '' }} />
                                     <label for="" class="ml-2 text-lg font-bold">MOBILE DEVELOPMENT</label><br />
                                 </div>
                                 <div class="mt-2">
-                                    <input type="checkbox" class="checkbox-round" />
+                                    <input type="checkbox" class="checkbox-round" name ="services[2]" value="SOFTWARE DEVELOPMENT" {{ old('services[2]')=='1' ? 'checked' : '' }} />
                                     <label for="" class="ml-2 text-lg font-bold">SOFTWARE DEVELOPMENT</label><br />
                                 </div>
                                 <div class="mt-2">
-                                    <input type="checkbox" class="checkbox-round" />
+                                    <input type="checkbox" class="checkbox-round" name ="services[3]" value="MARKETING" {{ old('services[3]')=='1' ? 'checked' : '' }} />
                                     <label for="" class="ml-2 text-lg font-bold">MARKETING</label><br />
                                 </div>
                             </div>
@@ -582,19 +582,19 @@
                                 </div>
                             </div>
                             <div class="boxed gap-y-1.5 mt-2.5 ml-[100px]">
-                                <input type="radio" id="amount-1" name="skills" value="amount-1">
+                                <input type="radio" id="amount-1" name="budget" value="Up to $5,000" {{ old('budget') === 'Up to $5,000' ? 'checked' : '' }} >
                                 <label
                                     class="cursor-pointer border font-normal  text-xs bg-white rounded-full py-3.5 w-44 items-center flex justify-center"
                                     for="amount-1">Up to $5,000</label>
-                                <input type="radio" id="amount-2" name="skills" value="amount-2">
+                                <input type="radio" id="amount-2" name="budget" value="$5,000 to $10,000" {{ old('budget') === '$5,000 to $10,000' ? 'checked' : '' }} >
                                 <label
                                     class="cursor-pointer mt-1 border font-normal  text-xs bg-white rounded-full py-3.5 w-44 items-center flex justify-center"
                                     for="amount-2">$5,000 to $10,000</label>
-                                <input type="radio" id="amount-3" name="skills" value="amount-3">
+                                <input type="radio" id="amount-3" name="budget" value="$10,000 to $50,000" {{ old('budget') === '$10,000 to $50,000' ? 'checked' : '' }} >
                                 <label
                                     class="cursor-pointer mt-1 border font-normal  text-xs bg-white rounded-full py-3.5 w-44 items-center flex justify-center"
                                     for="amount-3">$10,000 to $50,000</label>
-                                <input type="radio" id="amount-4" name="skills" value="amount-4">
+                                <input type="radio" id="amount-4" name="budget" value="Over $100,000" {{ old('budget') === 'Over $100,000' ? 'checked' : '' }} >
                                 <label
                                     class="cursor-pointer px-10 mt-1 border font-normal text-xs rounded-full py-3.5 w-44 items-center flex justify-center"
                                     for="amount-4">Over $100,000</label>
@@ -612,14 +612,14 @@
                     <form action="">
                         <input
                             class="outline-none py-3 pl-5 w-full rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
-                            type="text" placeholder="Full Name?"></br>
+                            type="text" name="fullname" value="{{ old('fullname') }}" placeholder="Full Name?"></br>
                         <input
                             class="outline-none mt-1 py-3 pl-5 w-full rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
-                            type="text" placeholder="Email?"></br>
+                            type="text" name="email" value="{{ old('email') }}" placeholder="Email?"></br>
                         <div class="relative">
                             <input
                                 class="outline-none mt-1 py-3 pl-5 w-full rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
-                                type="text" placeholder="Phone?">
+                                type="text" name="phone" value="{{ old('phone') }}" placeholder="Phone?">
                             <div style="clip-path: polygon(48% 0, 0% 100%, 100% 100%);"
                                 class="w-[15px] h-[15px] bg-[#4BBEFF] rotate-[-150deg] absolute -bottom-[5px] left-[0%] 2xl:left-[115px]">
                             </div>
@@ -634,19 +634,19 @@
                         </div>
                         <div class="text-left mt-4">
                             <div class="">
-                                <input type="checkbox" class="checkbox-round" />
+                                <input type="checkbox" class="checkbox-round" name ="services[0]" value="WEB DEVELOPMENT" {{ old('services[0]')=='1' ? 'checked' : '' }} />
                                 <label for="" class="ml-3 text-lg font-bold">WEB DEVELOPMENT</label><br />
                             </div>
                             <div class="mt-2">
-                                <input type="checkbox" class="checkbox-round" />
+                                <input type="checkbox" class="checkbox-round" name ="services[1]" value="MOBILE DEVELOPMENT" {{ old('services[1]')=='1' ? 'checked' : '' }} />
                                 <label for="" class="ml-3 text-lg font-bold">MOBILE DEVELOPMENT</label><br />
                             </div>
                             <div class="mt-2">
-                                <input type="checkbox" class="checkbox-round" />
+                                <input type="checkbox" class="checkbox-round" name ="services[2]" value="SOFTWARE DEVELOPMENT" {{ old('services[2]')=='1' ? 'checked' : '' }} />
                                 <label for="" class="ml-3 text-lg font-bold">SOFTWARE DEVELOPMENT</label><br />
                             </div>
                             <div class="mt-2">
-                                <input type="checkbox" class="checkbox-round" />
+                                <input type="checkbox" class="checkbox-round" name ="services[3]" value="MARKETING" {{ old('services[3]')=='1' ? 'checked' : '' }} />
                                 <label for="" class="ml-3 text-lg font-bold">MARKETING</label><br />
                             </div>
                         </div>
@@ -659,19 +659,19 @@
                             </div>
                         </div>
                         <div class="boxed gap-y-1.5 mt-4">
-                            <input type="radio" id="amount-1-mb" name="skills" value="amount-1">
+                            <input type="radio" id="amount-1-mb" name="budget" value="Up to $5,000" {{ old('budget') === 'Up to $5,000' ? 'checked' : '' }} >
                             <label
                                 class="cursor-pointer border font-normal  text-xs bg-white rounded-full py-3.5 w-44 items-center flex justify-center"
                                 for="amount-1-mb">Up to $5,000</label>
-                            <input type="radio" id="amount-2-mb" name="skills" value="amount-2">
+                            <input type="radio" id="amount-2-mb" name="budget" value="$5,000 to $10,000" {{ old('budget') === '$5,000 to $10,000' ? 'checked' : '' }} >
                             <label
                                 class="cursor-pointer mt-2 border font-normal  text-xs bg-white rounded-full py-3.5 w-44 items-center flex justify-center"
                                 for="amount-2-mb">$5,000 to $10,000</label>
-                            <input type="radio" id="amount-3-mb" name="skills" value="amount-3">
+                            <input type="radio" id="amount-3-mb" name="budget" value="$10,000 to $50,000" {{ old('budget') === '$10,000 to $50,000' ? 'checked' : '' }} >
                             <label
                                 class="cursor-pointer mt-2 border font-normal  text-xs bg-white rounded-full py-3.5 w-44 items-center flex justify-center"
                                 for="amount-3-mb">$10,000 to $50,000</label>
-                            <input type="radio" id="amount-4-mb" name="skills" value="amount-4">
+                            <input type="radio" id="amount-4-mb" name="budget" value="Over $100,000" {{ old('budget') === 'Over $100,000' ? 'checked' : '' }} >
                             <label
                                 class="cursor-pointer px-10 mt-2 border font-normal text-xs rounded-full py-3.5 w-44 items-center flex justify-center"
                                 for="amount-4-mb">Over $100,000</label>
@@ -823,7 +823,7 @@
     const navbarMenu = document.getElementById('menu');
     navbarToggle.addEventListener('click', () => {
         navbarMenu.classList.toggle('hidden');
-        
+
         navbarToggle.querySelector('svg:last-child').classList.toggle('hidden');
         navbarToggle.querySelector('svg:first-child').classList.toggle('block');
     });
@@ -835,15 +835,15 @@
     // function slowScroll() {
     //     console.log("slow")
     //     let scrollPos = myDiv.scrollTop;
-    //     myDiv.scrollTop = scrollPos + 1; 
+    //     myDiv.scrollTop = scrollPos + 1;
     // }
 
     // myDiv.addEventListener("mouseenter", function () {
-    //     intervalId = setInterval(slowScroll, 50); 
+    //     intervalId = setInterval(slowScroll, 50);
     // });
 
     // myDiv.addEventListener("mouseleave", function () {
-    //     clearInterval(intervalId); 
+    //     clearInterval(intervalId);
     // });
 
 
