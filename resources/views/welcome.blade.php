@@ -108,6 +108,7 @@
         #smoothly {
             scroll-behavior: smooth !important;
         }
+        
 
 
         @media (min-width: 1024px) {
@@ -125,14 +126,21 @@
                 background: #000000B0;
             }
         }
+        /* @font-face {
+        font-family: 'ArgentumSans-Bold';
+        font-style: normal;
+        font-weight: 900;
+        src: url('/resources/fonts/ArgentumSans-Bold.otf');
+      } */
     </style>
+    
 </head>
 
 <body>
     <div class="flex flex-col min-h-screen lg:min-h-0 xl:min-h-screen relative bg-photo bg-no-repeat extra-width bg-cover bg-bottom">
         <!-- <img class="extra-width height object-cover lg:!h-auto absolute -z-10" src="images/hero-section.png" /> -->
         <!-- <div class="linear-gradient-2 lg:absolute lg:-bottom-[3%] 2xl:-bottom-[12%] extra-width"></div> -->
-        <div class="for-background linear-gradient pb-8">
+        <div class="for-background linear-gradient lg:pb-8 border-b-[3px] boorder-white">
             <div class="hidden lg:block">
                 <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
                     <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
@@ -534,7 +542,7 @@
                 <div class="relative hidden lg:block">
                     <img class="relative w-48 lg:w-auto" src="/images/iphone.png" alt="">
                     <div class="absolute top-0 w-full 2xl:w-[74%] ml-10 text-center">
-                        <h3 class="text-xl text-[#4BBEFF] mt-16 font-bold">Please Fill Out This Form.</h3>
+                        <h3 class="text-xl text-[#4BBEFF] mt-16 font-bold ">Please Fill Out This Form.</h3>
                         <div class="bg-[#E6E6E6] w-[221px] h-[2px] my-5 mx-auto"></div>
                         <form  method="POST" action="{{ route('sendEmail') }}" >
                             @csrf
