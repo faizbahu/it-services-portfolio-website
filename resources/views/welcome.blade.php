@@ -257,17 +257,17 @@
             <div class="flex-1 mt-20 lg:mt-0 mx-7 lg:mx-0 ml-7 lg:ml-28 2xl:ml-3 ">
                 <div>
                     <img class="w-48 lg:w-auto" src="/images/rectangle.png" alt="">
-                    <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Discover & define</h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Together we dive right into the
+                    <h1 class="text-2xl lg:text-4xl font-extrabold lg:font-bold mt-6 lg:mt-8 uppercase">Discover & define</h1>
+                    <p class="text-[14px] lg:text-xl mt-3 lg:mt-4 uppercase !leading-[13px] lg:!leading-[20px] font-semibold">Together we dive right into the
                         problem with the goal of
                         uncovering ideas and opportunities. No vision is too big for a simple prototype. Validated ideas
                         ensure we’re on the right path. </p>
                 </div>
                 <div class="mt-24 lg:mt-36">
                     <img class="w-48 lg:w-auto" src="/images/circle.png" alt="">
-                    <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Design & build
+                    <h1 class="text-2xl lg:text-4xl font-extrabold lg:font-bold mt-6 lg:mt-8 uppercase">Design & build
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Delightful user experiences
+                    <p class="text-[14px] lg:text-xl mt-3 lg:mt-4 uppercase !leading-[13px] lg:!leading-[20px] font-semibold">Delightful user experiences
                         meet precise engineering. By
                         continuously optimizing and improving with user feedback, we craft products that are rock-solid
                         and simple to use.
@@ -275,9 +275,9 @@
                 </div>
                 <div class="mt-24 lg:mt-36">
                     <img class="w-48 lg:w-auto" src="/images/tick.png" alt="">
-                    <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">Launch & scale
+                    <h1 class="text-2xl lg:text-4xl font-extrabold lg:font-bold mt-6 lg:mt-8 uppercase">Launch & scale
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[19px]">Achieving a product-market-fit
+                    <p class="text-[14px] lg:text-xl mt-3 lg:mt-4 uppercase !leading-[13px] lg:!leading-[20px] font-semibold">Achieving a product-market-fit
                         is about making the right
                         decisions. The data-driven approach helps us draw insights, refine the product, and utilize the
                         right distribution and promotion strategy.
@@ -392,16 +392,16 @@
                             <img src="/images/star.png" alt="">
                         </span>
                     </div>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[20px]">I can't say enough good things about my experience
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[15px] lg:!leading-[20px] font-semibold">I can't say enough good things about my experience
                         working with Kovsk Digital. They truly went above and beyond to create a website that exceeded
                         my expectations, and I would highly recommend them to anyone looking for top-notch web design
                         and development services.</p>
                 </div>
                 <div class="mt-24 lg:mt-36">
                     <img class="" src="/images/image 6.png" alt="">
-                    <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">PLATINUM RENTALS
+                    <h1 class="text-2xl lg:text-4xl font-extrabold lg:font-bold mt-6 lg:mt-8 uppercase">PLATINUM RENTALS
                         <div class="flex items-center mt-2">
-                            <p class="text-base font-bold">“PCG KUSH ”</p>
+                            <p class="text-base font-extrabold lg:font-bold">“PCG KUSH ”</p>
                             <span class="flex ml-1.5">
                                 <img src="/images/star.png" alt="">
                                 <img src="/images/star.png" alt="">
@@ -411,7 +411,7 @@
                             </span>
                         </div>
                     </h1>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[20px]">couldn't be happier with the work that Kovsk Digital did
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[15px] lg:!leading-[20px] font-semibold">couldn't be happier with the work that Kovsk Digital did
                         on my website. They exceeded my expectations in every way, and I would highly recommend them to
                         anyone looking for top-notch web design and development services. If you're looking to take your
                         car rental business to the next level, Kovsk Digital is the partner you need.
@@ -419,10 +419,10 @@
                 </div>
                 <div class="mt-24 lg:mt-36">
                     <img class="" src="/images/image 7.png" alt="">
-                    <h1 class="text-2xl lg:text-4xl font-bold mt-6 lg:mt-8 uppercase">THE ENTERPRISE
+                    <h1 class="text-2xl lg:text-4xl font-extrabold lg:font-bold mt-6 lg:mt-8 uppercase">THE ENTERPRISE
                     </h1>
                     <div class="flex items-center mt-2">
-                        <p class="text-base font-bold">“STEVEN BLACK ”</p>
+                        <p class="text-base font-extrabold lg:font-bold">“STEVEN BLACK ”</p>
                         <span class="flex ml-1.5">
                             <img src="/images/star.png" alt="">
                             <img src="/images/star.png" alt="">
@@ -431,7 +431,7 @@
                             <img src="/images/star.png" alt="">
                         </span>
                     </div>
-                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[20px]">The website looked great and functioned flawlessly, and
+                    <p class="text-sm lg:text-xl mt-3 lg:mt-4 uppercase !leading-[15px] lg:!leading-[20px] font-semibold">The website looked great and functioned flawlessly, and
                         I've already seen an increase in sales since it launched. If you're looking for a web
                         development partner that truly cares about your business and your success, I would highly
                         recommend Kovsk Digital. They are simply the best.
@@ -462,9 +462,9 @@
             <div class="container mx-auto">
                 <div class="">
                     <div class="absolute lg:relative top-[60px]">
-                        <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold ml-5 lg:ml-28 2xl:ml-3 ">WE
+                        <h1 class="leading-[78.4%] lg: text-4xl lg:text-7xl text-white font-bold ml-5 lg:ml-28 2xl:ml-3 ">WE
                             WANT TO </h1>
-                        <h1 class="leading-none text-4xl lg:text-7xl text-white font-bold ml-5 lg:ml-28 2xl:ml-3 "> HELP
+                        <h1 class="leading-[78.4%] text-4xl lg:text-7xl text-white font-bold ml-5 lg:ml-28 2xl:ml-3 "> HELP
                             YOU GROW.</h1>
                         <a href="">
                             <button
@@ -478,8 +478,8 @@
 
                             <p class="mt-9 text-xs ">STEP 1</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4">RESEARCH</h1>
-                            <p class="text-xs uppercase leading-5">All of our projects start with a client research to
+                            <h1 class="text-[42px] lg:text-3xl 2xl:text-4xl font-bold mb-4">RESEARCH</h1>
+                            <p class="text-[13px] font-light uppercase leading-5">All of our projects start with a client research to
                                 identify goals and establish a strategy for the project.</p>
                         </div>
                         <div style="backdrop-filter: blur(7.5px);"
@@ -487,8 +487,8 @@
 
                             <p class="mt-9 text-xs ">STEP 2</p>
                             <div class="w-20  h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4">DESIGN</h1>
-                            <p class="text-xs uppercase leading-5">After we establish our strategy, our team begins
+                            <h1 class="text-[42px] lg:text-3xl 2xl:text-4xl font-bold mb-4">DESIGN</h1>
+                            <p class="text-[13px] font-light uppercase leading-5">After we establish our strategy, our team begins
                                 designing the layout & look of your new website.
                             </p>
                         </div>
@@ -497,8 +497,8 @@
 
                             <p class="mt-9 text-xs ">STEP 3</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4 uppercase">Engineering</h1>
-                            <p class="text-xs uppercase leading-5">Once the design has been finalized, our programmers
+                            <h1 class="text-[42px] lg:text-3xl 2xl:text-4xl font-bold mb-4 uppercase">Engineering</h1>
+                            <p class="text-[13px] font-light uppercase leading-5">Once the design has been finalized, our programmers
                                 begin developing your responsive website so it works seamlessly on desktop and mobile.
                             </p>
                         </div>
@@ -507,8 +507,8 @@
 
                             <p class="mt-9 text-xs ">STEP 4</p>
                             <div class="w-20 h-1 bg-[#4BBEFF] m-auto mt-2.5 mb-7"></div>
-                            <h1 class="lg:text-3xl 2xl:text-4xl font-bold mb-4">DATA</h1>
-                            <p class="text-xs uppercase leading-5">After thorough testing, it’s time to launch your new
+                            <h1 class="text-[42px] lg:text-3xl 2xl:text-4xl font-bold mb-4">DATA</h1>
+                            <p class="text-[13px] font-light uppercase leading-5">After thorough testing, it’s time to launch your new
                                 website and begin driving traffic with digital marketing.
                             </p>
                         </div>
