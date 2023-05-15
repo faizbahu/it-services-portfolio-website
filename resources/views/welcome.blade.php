@@ -101,6 +101,9 @@
         .bluring {
             backdrop-filter: blur(120.5px);
         }
+        .bg-photo{
+            background-image: url("images/hero-section.png");
+        }
 
         #smoothly {
             scroll-behavior: smooth !important;
@@ -126,10 +129,10 @@
 </head>
 
 <body>
-    <div class="flex flex-col min-h-screen lg:min-h-0 xl:min-h-screen relative">
-        <img class="extra-width height object-cover lg:!h-auto absolute -z-10" src="images/hero-section.png" />
+    <div class="flex flex-col min-h-screen lg:min-h-0 xl:min-h-screen relative bg-photo bg-no-repeat extra-width bg-cover bg-bottom">
+        <!-- <img class="extra-width height object-cover lg:!h-auto absolute -z-10" src="images/hero-section.png" /> -->
         <!-- <div class="linear-gradient-2 lg:absolute lg:-bottom-[3%] 2xl:-bottom-[12%] extra-width"></div> -->
-        <div class="for-background linear-gradient lg:pb-20">
+        <div class="for-background linear-gradient pb-8">
             <div class="hidden lg:block">
                 <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
                     <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
@@ -242,13 +245,14 @@
                 </a>
             </div>
             <div
-                class="text-center text-white font-bold text-base lg:-mb-[90px] z-10 absolute lg:relative bottom-0 left-0 right-0 m-auto lg:translate-y-0 -translate-y-[159%]">
+                class="text-center text-white font-bold text-base mb-[48px] z-10 absolute  bottom-0 left-0 right-0 m-auto lg:translate-y-0 -translate-y-[159%]">
                 <h1>LEARN MORE</h1>
                 <img class="m-auto mt-2 cursor-pointer" src="images/dropdown.png" alt="">
             </div>
 
         </div>
-        <div class="linear-gradient-2 lg:absolute lg:-bottom-[17%] 2xl:-bottom-[12%] extra-width"></div>
+        <!-- <div class="linear-gradient-2 lg:absolute lg:-bottom-[17%] 2xl:-bottom-[12%] extra-width"></div> -->
+        <div class="linear-gradient-2  bottom-0 extra-width"></div>
     </div>
     <section id="smoothly" class="scroll-smooth">
         <div
