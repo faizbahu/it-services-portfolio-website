@@ -469,13 +469,13 @@
                     </div>
                 </div>
                 <div class="flex mt-7 lg:mt-0 mb-8 lg:mb-0">
-                    <a class="mr-14 no-underline text-white text-base hover:font-bold" href="">
+                    <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-[#4BBEFF] w-fit pb-2" href="">
                         <div> HOME</div>
                     </a>
-                    <a class="mr-10  no-underline text-white text-base hover:font-bold" href="">
+                    <a class="mr-10  no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                         <div> SERVICES</div>
                     </a>
-                    <a class="no-underline text-white text-base hover:font-bold" href="">
+                    <a class="no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2" href="">
                         <div> PROJECTS</div>
                     </a>
                 </div>
@@ -515,7 +515,7 @@
                 </div>
             </div>
             <div class="flex">
-                <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-transparent hover:border-[#4BBEFF] hover:w-fit pb-2"
+                <a class="mr-14 no-underline text-white text-base hover:font-bold border-b-4 border-[#4BBEFF] w-fit pb-2"
                     href="">
                     <div> HOME</div>
                 </a>
