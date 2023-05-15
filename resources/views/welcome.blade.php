@@ -140,7 +140,7 @@
     <div class="flex flex-col min-h-screen lg:min-h-0 xl:min-h-screen relative bg-photo bg-no-repeat extra-width bg-cover bg-bottom">
         <!-- <img class="extra-width height object-cover lg:!h-auto absolute -z-10" src="images/hero-section.png" /> -->
         <!-- <div class="linear-gradient-2 lg:absolute lg:-bottom-[3%] 2xl:-bottom-[12%] extra-width"></div> -->
-        <div class="for-background linear-gradient lg:pb-8 border-b-[3px] boorder-white">
+        <div class="for-background linear-gradient lg:pb-8 border-b-[3px] boorder-white lg:border-0">
             <div class="hidden lg:block">
                 <nav class="flex justify-center lg:justify-between lg:mx-20 pt-9 pb-5 lg:py-9 items-center relative">
                     <div class="absolute lg:hidden left-10 top-[38%]"><img src="/images/phone.png" alt=""></div>
