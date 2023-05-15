@@ -532,7 +532,8 @@
                     <div class="absolute top-0 w-full 2xl:w-[74%] ml-10 text-center">
                         <h3 class="text-xl text-[#4BBEFF] mt-16 font-bold">Please Fill Out This Form.</h3>
                         <div class="bg-[#E6E6E6] w-[221px] h-[2px] my-5 mx-auto"></div>
-                        <form action="">
+                        <form  method="POST" action="{{ route('sendEmail') }}" >
+                            @csrf
                             <input
                                 class="outline-none py-3 pl-5 pr-36 rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
                                 type="text" name="fullname" value="{{ old('fullname') }}" placeholder="Full Name?" required></br>
@@ -609,7 +610,8 @@
                     <div class="bg-[#E6E6E6] w-[221px] h-[2px]  mx-auto mt-16"></div>
                     <h3 class="text-xl text-[#4BBEFF] mt-5 mb-16 font-bold">Please Fill Out This Form.</h3>
 
-                    <form action="">
+                    <form  method="POST" action="{{ route('sendEmail') }}" >
+                        @csrf
                         <input
                             class="outline-none py-3 pl-5 w-full rounded-full bg-[#4BBEFF] border-none placeholder:text-white placeholder:text-sm placeholder:font-bold"
                             type="text" name="fullname" value="{{ old('fullname') }}" placeholder="Full Name?"></br>
